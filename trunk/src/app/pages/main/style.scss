@@ -1,0 +1,39 @@
+.main {
+    &__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+
+        &_balance {
+            height: 80px;
+
+            .text {
+                margin: 20px 0;
+
+                font-size: 25px;
+            }
+        }
+
+        &_prepare {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 40px 0 0;
+
+            .prepare {
+                &__title {
+                    font-weight: bold;
+                    font-size: 40px;
+                    margin: 0;
+                }
+
+                &__describe {
+                    font-size: 25px;
+                    margin: 10px 0;
+                }
+            }
+        }
+    }
+}

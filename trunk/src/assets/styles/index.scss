@@ -1,0 +1,24 @@
+@import './vendors/normalize.css';
+
+@font-face {
+    font-family: "Raleway";
+    src: url(../fonts/Raleway.ttf);
+}
+
+// fonts variables
+$font-main-regular: 'Raleway', sans-serif;
+
+// Other page styles
+body {
+    font: 400 14px/1.2 $font-main-regular, sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1250px;
+}

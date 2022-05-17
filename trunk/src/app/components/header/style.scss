@@ -1,0 +1,45 @@
+.header {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+
+    background: rgb(70, 70, 70);
+
+    &__content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 60px;
+
+        &_title {
+            box-sizing: border-box;
+            margin: 0;
+            color: #FFF;
+            font-size: 20px;
+
+            padding: 5px 10px;
+            background: rgb(41, 41, 41);
+            border-radius: 5px;
+        }
+
+        &_button {
+            box-sizing: border-box;
+            padding: 10px 15px;
+            background: rgb(41, 41, 41);
+            color: #fff;
+            outline: none;
+            border: none;
+            border-radius: 5px;
+
+            transition: all .3s ease;
+
+            &:hover {
+                cursor: pointer;
+                background: rgb(0, 0, 0);
+            }
+        }
+    }
+}

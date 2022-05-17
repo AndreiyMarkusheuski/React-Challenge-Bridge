@@ -1,0 +1,28 @@
+.card {
+    width: 200px;
+    height: 260px;
+    perspective: 600px;
+
+    &__content {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        transition: transform 1s;
+        transform-style: preserve-3d;
+
+        &_face {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            backface-visibility: hidden;
+        }
+
+        &_face--back {
+            transform: rotateY( 180deg );
+        }
+
+        &.is-flipped {
+            transform: rotateY(180deg);
+        }
+    }
+}

@@ -1,0 +1,35 @@
+.game {
+    width: 800px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    
+
+    &__buttons {
+        width: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        button {
+            box-sizing: border-box;
+            min-width: 80px;
+            padding: 10px 15px;
+            background: blue;
+            color: #fff;
+            outline: none;
+            border: none;
+            border-radius: 5px;
+
+            transition: all .3s ease;
+
+            &:hover {
+                cursor: pointer;
+                background: rgb(0, 110, 255);
+            }
+        }
+    }
+}
