@@ -7,7 +7,7 @@ import Login from "./pages/login";
 import { LOGIN_PAGE, MAIN_PAGE } from "./consts";
 
 import { Provider } from "react-redux";
-import store from './redux/store'
+import store from "./redux/store";
 
 const App = () => (
   <BrowserRouter>

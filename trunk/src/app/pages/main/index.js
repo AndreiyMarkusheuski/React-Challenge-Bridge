@@ -23,14 +23,14 @@ const Main = () => {
   return (
     <div className="main">
       <Header handleClick={() => dispatch(logout())} />
-      <div className='container'>
-        <div className='main__content'>
-          <div className='main__content_balance'>
-            <p className='text'>Balance: {balance}</p>
+      <div className="container">
+        <div className="main__content">
+          <div className="main__content_balance">
+            <p className="text">Balance: {balance}</p>
           </div>
-          <div className='main__content_prepare'>
-            <p className='prepare__title'>Who won?</p>
-            <p className='prepare__describe'>Play the game</p>
+          <div className="main__content_prepare">
+            <p className="prepare__title">Who won?</p>
+            <p className="prepare__describe">Play the game</p>
           </div>
           <Game />
         </div>
