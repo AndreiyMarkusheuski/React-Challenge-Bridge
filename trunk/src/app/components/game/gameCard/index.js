@@ -1,5 +1,5 @@
 import React from "react";
-import cardBack from "../../../assets/images/playing-card-back.png";
+import cardBack from "../../../../assets/images/playing-card-back.png";
 
 import "./style.scss";
 

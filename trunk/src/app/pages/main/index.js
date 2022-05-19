@@ -26,7 +26,7 @@ const Main = () => {
       <div className="container">
         <div className="main__content">
           <div className="main__content_balance">
-            <p className="text">Balance: {balance}</p>
+            <p className="text">Balance: {balance}$</p>
           </div>
           <div className="main__content_prepare">
             <p className="prepare__title">Who won?</p>

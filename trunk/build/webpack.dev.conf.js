@@ -1,12 +1,12 @@
 const path = require("path");
-const merge = require("webpack-merge");
+const { merge } = require('webpack-merge')
 
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
-const common = require('./webpack.base.conf');
+const Common = require('./webpack.base.conf');
 
-module.exports = merge(common, {
+module.exports = merge(Common, {
     mode: "development",
     output: {
         filename: '[name].js',

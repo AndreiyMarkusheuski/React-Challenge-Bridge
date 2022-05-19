@@ -1,8 +1,12 @@
 export const LOGIN_STORAGE_NAME = "is_user_authentication";
+export const SUCCESS_LOGIN_DATA = { username: "admin", password: "123456" };
 export const LOGIN_PAGE = "/login";
 export const MAIN_PAGE = "/";
 
-export const SUCCESS_LOGIN_DATA = { username: "admin", password: "123456" };
+export const COEFFICIENT = 2;
+
+export const WIN_TEXT = "You win:";
+export const LOST_TEXT = "You lost:";
 
 export const VALUE_SUIT = {
   SPADES: 4,

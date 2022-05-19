@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useCallback } from "react";
 import {
-  LOGIN_STORAGE_NAME,
   SUCCESS_LOGIN_DATA,
   MAIN_PAGE,
 } from "../../consts";

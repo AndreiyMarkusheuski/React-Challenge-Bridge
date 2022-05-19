@@ -6,19 +6,15 @@ export const LOGIN = () => ({
 export const LOGOUT = () => ({
   type: actions.LOGOUT,
 });
-export const UPDATE_BALANCE = (value) => ({
-  type: actions.UPDATE_BALANCE,
+export const WIN_BALANCE = (value) => ({
+  type: actions.WIN_BALANCE,
+  value,
+});
+export const LOST_BALANCE = (value) => ({
+  type: actions.LOST_BALANCE,
   value,
 });
 export const SET_DESC_ID = (value) => ({
   type: actions.SET_DESC_ID,
-  value,
-});
-export const SET_REMAINIG = (value) => ({
-  type: actions.SET_REMAINIG,
-  value,
-});
-export const SET_CARDS = (value) => ({
-  type: actions.SET_CARDS,
   value,
 });
